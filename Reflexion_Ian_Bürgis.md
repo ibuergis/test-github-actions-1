@@ -14,4 +14,8 @@ Ich habe jest hinzugefügt und die benötigten files geadded. Danach habe ich mi
 Ich habe die dann ein bisschen umgeschrieben damit es asynchron lauft (needs entfernt).
 
 ### Aufgabe 3
-Ich wollte den test pipeline "jest" nennen. darum habe ich das nicht geändert. Dann habe ich deployment geadded dass 
+Ich wollte den test pipeline "jest" nennen. darum habe ich das nicht geändert. Dann habe ich deployment geadded dass nur 
+läuft, wenn jest und lint nicht failen.
+
+### Extras
+npm caching geadded
