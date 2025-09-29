@@ -21,4 +21,12 @@ jobs:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm jest
+      - run: npx jest
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - lint
+      - jest
+    steps:
+      - run: echo "deployment successful"
